@@ -29,7 +29,7 @@ using `-a pitcher_ids=<pitcher id>[,pitcher id...]`
 This would not be possible without the hard work done by Brooks Baseball.
 Read more about them [here](http://www.brooksbaseball.net/about.php).
 
-### Examples
+## Examples
 
 #### Import everything
 
