@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import datetime
-import urlparse
+import six
+
+if six.PY3:
+    from urllib import parse as urlparse
+else:
+    import urlparse
 
 import scrapy
 from scrapy.exceptions import CloseSpider
