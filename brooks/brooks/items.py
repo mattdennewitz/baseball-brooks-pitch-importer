@@ -53,4 +53,5 @@ class Pitch(scrapy.Item):
     pz = scrapy.Field()
     pxold = scrapy.Field()
     pzold = scrapy.Field()
+    tm_spin = scrapy.Field()
     sb = scrapy.Field()
